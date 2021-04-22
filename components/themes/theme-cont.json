@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_themes_theme_conts",
+  "info": {
+    "name": "themeCont",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "bg": {
+      "type": "string"
+    },
+    "ui": {
+      "type": "string"
+    }
+  }
+}

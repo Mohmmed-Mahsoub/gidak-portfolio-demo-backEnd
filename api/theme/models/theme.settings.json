@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "themes",
+  "info": {
+    "name": "theme",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "themeType": {
+      "type": "string"
+    },
+    "themeCont": {
+      "type": "component",
+      "repeatable": true,
+      "component": "themes.theme-cont"
+    }
+  }
+}

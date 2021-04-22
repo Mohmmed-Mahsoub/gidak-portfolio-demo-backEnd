@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_languages_addresses",
+  "info": {
+    "name": "address",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    }
+  }
+}

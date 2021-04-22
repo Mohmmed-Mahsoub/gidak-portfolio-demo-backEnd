@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "languages",
+  "info": {
+    "name": "language",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lang": {
+      "type": "string"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "languages.heading",
+        "languages.logo",
+        "languages.address",
+        "languages.copy-right",
+        "languages.map",
+        "languages.social-contact"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_languages_social_contacts",
+  "info": {
+    "name": "socialContact",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "languages.social"
+    },
+    "map": {
+      "type": "component",
+      "repeatable": true,
+      "component": "languages.map"
+    }
+  }
+}

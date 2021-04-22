@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_languages_maps",
+  "info": {
+    "name": "map",
+    "icon": "map"
+  },
+  "options": {},
+  "attributes": {
+    "iframeSrc": {
+      "type": "text"
+    }
+  }
+}
